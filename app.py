@@ -20,7 +20,7 @@
 # LISTS
 #
 # friends = ["Chris", "Randy", "Chris", "Joann", "Al", "Anna", "Jahel"]
-# not_friends = ["RYAN"]
+# not_friends = ["Stranger"]
 #
 # friends2 = friends.copy()
 #
@@ -164,10 +164,10 @@
 
 # CLASSES
 
-from Companion import Companion
-companion1 = Companion("Lydia", "Mace", "Sweet Roll")
-
-
-companion1.increase_friendliness()
-
-print("Is Your Companion Friendly: " + str(companion1.check_friendliness()) + "\nTheir friendliness level is " + str(companion1.friendliness))
+# from Companion import Companion
+# companion1 = Companion("Lydia", "Mace", "Sweet Roll")
+#
+#
+# companion1.increase_friendliness()
+#
+# print("Is Your Companion Friendly: " + str(companion1.check_friendliness()) + "\nTheir friendliness level is " + str(companion1.friendliness))
