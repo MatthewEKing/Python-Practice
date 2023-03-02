@@ -147,9 +147,15 @@
 
 # EXTERNAL FILES
 
-temp_file = open("temp", "r")
+#temp_file = open("temp", "r")
 
-for lines in temp_file.readlines():
-    print(lines)
+# for lines in temp_file.readlines():
+#     print(lines)
+
+#temp_file.close()
+
+temp_file = open("temp", "w")
+
+temp_file.write("\nadded this line")
 
 temp_file.close()
