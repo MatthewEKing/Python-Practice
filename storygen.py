@@ -5,7 +5,7 @@ name = ""
 # COMPANIONS
 Lydia = Companion("Lydia", "Mace", "Sweet Roll")
 Einar = Companion("Einar", "Gauntlets", "Bread")
-Alesandel = Companion("Alesandel", "Sword", "Apples")
+Alesandel = Companion("Alesandel", "Crossbow", "Chicken")
 
 companions = [Lydia, Einar, Alesandel]
 
