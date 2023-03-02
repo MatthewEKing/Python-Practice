@@ -154,8 +154,20 @@
 
 #temp_file.close()
 
-temp_file = open("temp", "w")
+#
+#
+# temp_file = open("temp", "w")
+#
+# temp_file.write("\nNew Line")
+#
+# temp_file.close()
 
-temp_file.write("\nadded this line")
+# CLASSES
 
-temp_file.close()
+from Companion import Companion
+companion1 = Companion("Lydia", "Mace", "Sweet Roll")
+
+
+companion1.increase_friendliness()
+
+print("Is Your Companion Friendly: " + str(companion1.check_friendliness()) + "\nTheir friendliness level is " + str(companion1.friendliness))
