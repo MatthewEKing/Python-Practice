@@ -1,7 +1,5 @@
 from Companion import Companion
 
-name = ""
-
 # COMPANIONS
 Lydia = Companion("Lydia", "Mace", "Sweet Roll")
 Einar = Companion("Einar", "Gauntlets", "Bread")
@@ -43,7 +41,7 @@ def setup_game():
 
 
 def init_playername():
-    name_input = input("Whats your name traveler?\n")
+    name_input = input("What's your name traveler?\n")
     player_input = input("So your name is " + name_input + "? (Y/N)\n")
     if player_input == "Y":
         print("Its nice to meet you " + name_input)
@@ -51,8 +49,10 @@ def init_playername():
         return name_input
     elif player_input == "N":
         init_playername()
+        #return ""
     else:
         init_playername()
+        #return ""
 
 
 def choose_companion():
@@ -81,7 +81,10 @@ def choose_companion():
     else:
         choose_companion()
 
-#setup_game()
-#name = init_playername()
+name = ""
+
+setup_game()
+name = init_playername()
 choose_companion()
-# print(name)
+
+print("name var is " + name)
